@@ -1,0 +1,33 @@
+[
+  {
+    "_id": {
+      "$oid": "5a3da533030af8099121d469"
+    },
+    "_class": "co.uk.app.commerce.shipping.document.Shipping",
+    "name": "STANDARD",
+    "description": "Standard Delivery",
+    "type": "UK",
+    "amount": 3.99,
+    "active": true,
+    "updateddate": {
+      "$date": "2017-12-23T01:36:13.391Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5a3da54f030af8099121d46a"
+    },
+    "_class": "co.uk.app.commerce.shipping.document.Shipping",
+    "name": "NEXTDAY",
+    "description": "Next Day Delivery",
+    "type": "UK",
+    "amount": 5.99,
+    "active": true,
+    "createddate": {
+      "$date": "2017-12-23T00:37:35.789Z"
+    },
+    "updateddate": {
+      "$date": "2017-12-23T00:37:35.789Z"
+    }
+  }
+]

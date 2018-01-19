@@ -1,7 +1,7 @@
 FROM mongo
 
-COPY docker-start.sh /usr/local/bin/
-RUN chmod +x /usr/local/bin/docker-start.sh
+COPY docker-loaddata.sh /usr/local/bin/
+RUN chmod +x /usr/local/bin/docker-loaddata.sh
 
 COPY catentries.json /usr/local/bin/
 RUN chmod +x /usr/local/bin/catentries.json
